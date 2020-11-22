@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn= "navigation_view">
+
+    <group android:checkableBehavior="single">
+        <group>
+            <item
+                android:id="@+id/shop"
+                android:icon="@drawable/pic_icon_profile"
+                android:title="Shop" />
+        </group>
+
+        <group>
+            <item
+                android:id="@+id/cart"
+                android:icon="@drawable/pic_icon_profile"
+                android:title="My Cart" />
+        </group>
+
+        <group>
+            <item
+                android:id="@+id/watch_list"
+                android:icon="@drawable/pic_icon_profile"
+                android:title="My WatchList" />
+        </group>
+
+
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/pic_icon_profile"
+            android:title="My Account" />
+    </group>
+
+    // triggering menu
+    <item android:title="Action">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/pic_icon_profile"
+                android:title="logout" />
+        </menu>
+    </item>
+
+</menu>

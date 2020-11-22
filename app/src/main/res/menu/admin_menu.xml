@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+        <group>
+            <item
+                android:id="@+id/view_all"
+                android:icon="@drawable/pic_icon_profile"
+                android:title="View All Product" />
+        </group>
+
+        <group>
+            <item
+                android:id="@+id/add_product"
+                android:icon="@drawable/pic_icon_profile"
+                android:title="ADD Product" />
+        </group>
+    </group>
+
+    // triggering menu
+    <item android:title="Action">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/pic_icon_profile"
+                android:title="logout" />
+        </menu>
+    </item>
+
+</menu>

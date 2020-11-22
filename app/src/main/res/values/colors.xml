@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colour_crimson">#DC143C</color>
+    <color name="colour_darkblue">#003893</color>
+    <color name="colour_white">#FFFFFF</color>
+    <color name="colour_black">#080708</color>
+    <color name="colour_link">#0077b6</color>
+    <color name="error">#fa1616</color>
+</resources>

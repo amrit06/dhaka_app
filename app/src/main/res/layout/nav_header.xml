@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colour_crimson"
+    android:orientation="vertical"
+    android:gravity="bottom|center_horizontal"
+    android:theme="@style/ThemeOverlay.AppCompat.Light"
+    android:padding="20dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/pic_person"
+        app:civ_border_color="@color/colour_black"
+        app:civ_border_width="4dp"
+        />
+
+    <TextView
+        android:id="@+id/name_lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amrit Kharel"
+        android:textColor="@color/colour_white"
+        android:fontFamily="sans-serif"
+        />
+    <TextView
+        android:id="@+id/emailtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="amrit.kharel6@gmail.com"
+        android:textColor="@color/colour_white"
+        android:fontFamily="sans-serif"
+        />
+
+
+</LinearLayout>

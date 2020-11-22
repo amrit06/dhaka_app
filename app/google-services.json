@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "394363847946",
+    "firebase_url": "https://dhaka-e8c74.firebaseio.com",
+    "project_id": "dhaka-e8c74",
+    "storage_bucket": "dhaka-e8c74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394363847946:android:75134bc3730aa0a807a6f3",
+        "android_client_info": {
+          "package_name": "com.example.dhaka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394363847946-221h8aj02158371ktedsf7jfvfbt9cbt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dhaka",
+            "certificate_hash": "43d6dac78038f279bd9cd62dc5de80e4f703c8be"
+          }
+        },
+        {
+          "client_id": "394363847946-jc8k2h9lm1s7q6o7v58pte5rm4fta8uu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlKFTEITBZStaut-hLZa5vbXpAme9xsXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394363847946-jc8k2h9lm1s7q6o7v58pte5rm4fta8uu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
